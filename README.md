@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project was designed to practice and learn the **ETL (Extract, Transform, Load)** pipeline using **AWS Glue** and **Amazon S3** while analyzing perfume product data from **Ulta's website**. The goals were twofold:
+This project was designed to practice and learn the **ETL (Extract, Transform, Load)** pipeline using **AWS Glue** and **Amazon S3** while analyzing perfume product data from **Ulta's website**. I had two goals:
 
 1. **ETL Pipeline Practice**: Gain hands-on experience with the ETL process using **AWS Glue** and **S3**.
 2. **Perfume Popularity Analysis**: Understand which perfumes are more popular and better-rated on Ulta’s website by analyzing product ratings and reviews.
