@@ -33,7 +33,7 @@ This project was designed to practice and learn the **ETL (Extract, Transform, L
 The transformation and loading process involved:
 - **Extract**: Loaded the scraped data from **S3** into AWS Glue.
 - **Transform**: 
-  - Calculated a **weighted average rating** using both the star rating and the number of reviews.
+  - Calculated a **weighted average rating** by multiplying the average star rating by the total number of reviews.
   - Grouped the data by **brand** to analyze average ratings for each perfume brand.
 - **Load**: The transformed data was saved into a new CSV file and uploaded back into **Amazon S3** for storage and further analysis.
 
@@ -60,7 +60,7 @@ The transformation and loading process involved:
 
 2. **Transform and Load Data Using AWS Glue**:
    - Use the **AWS Glue Console** to run `TransformingLoadingData.ipynb` for both transforming and loading the data.
-   - Adds a **Total Weighted Average Rating** column, groups data by **brand**, and loads the transformed data back into **Amazon S3**.
+   - Adds a **Weighted Average Rating** column, groups data by **brand**, and loads the transformed data back into **Amazon S3**.
 
 ---
 
