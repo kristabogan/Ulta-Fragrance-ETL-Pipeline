@@ -49,11 +49,11 @@ This project was designed to practice and learn the **ETL (Extract, Transform, L
 
 1. **Run Web Scraping**:
    - Execute `ScrapingUltaPerfume.ipynb` to scrape data from Ulta.
-   - Data will be saved as `ulta_perfume_data.csv` and uploaded to **S3**.
+   - Data will be saved as `ulta_perfume_data.csv`. Upload this raw csv to **S3**.
 
 2. **Transform and Load Data Using AWS Glue**:
    - Use the **AWS Glue Console** to run `TransformingLoadingData.ipynb` for both transforming and loading the data.
-   - Adds a **Weighted Average Rating** column, groups data by **brand**, and loads the transformed data back into **Amazon S3**.
+   - Adds a **Weighted Average Rating** column, groups data by **brand**, and loads the transformed data back into **S3**.
 
 ---
 
