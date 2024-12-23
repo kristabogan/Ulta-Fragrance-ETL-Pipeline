@@ -72,12 +72,4 @@ The transformation and loading process involved:
 
 ---
 
-## Future Work
-
-- Analyze trends over time to observe changes in perfume ratings and popularity.
-- Integrate more data sources for broader perfume trend analysis.
-- Perform sentiment analysis on reviews or predict ratings based on features.
-
----
-
 This project provides a full pipeline for scraping, transforming, and analyzing data using AWS services, with a focus on understanding perfume product ratings and popularity on Ulta's website.
