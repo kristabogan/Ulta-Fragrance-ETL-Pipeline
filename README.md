@@ -25,24 +25,17 @@ This project was designed to practice and learn the **ETL (Extract, Transform, L
 
 ### 2. Data Transformation and Loading (Using AWS Glue)
 
-- **Objective**: Use **AWS Glue** to transform the scraped data:
+- **Objective**: Use **AWS Glue** to transform the scraped data, and load it back into S3:
   - Add a **Weighted Average Rating** column considering both ratings and the number of reviews.
   - Group data by **brand** to analyze the popularity and average ratings of perfumes.
   - Load the transformed data back into **Amazon S3** for further analysis.
-
-The transformation and loading process involved:
-- **Extract**: Loaded the scraped data from **S3** into AWS Glue.
-- **Transform**: 
-  - Calculated a **weighted average rating** by multiplying the average star rating by the total number of reviews.
-  - Grouped the data by **brand** to analyze average ratings for each perfume brand.
-- **Load**: The transformed data was saved into a new CSV file and uploaded back into **Amazon S3** for storage and further analysis.
 
 **Files:**
 - `TransformingLoadingData.ipynb`: Jupyter Notebook for transforming and loading the data using AWS Glue.
 
 ---
 
-## Technologies Used
+## Packages/Technologies Used
 
 - **Selenium**: For web scraping and automating data extraction from Ulta.
 - **BeautifulSoup**: For parsing HTML and extracting product data.
