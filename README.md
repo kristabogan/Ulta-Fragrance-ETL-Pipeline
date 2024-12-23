@@ -31,7 +31,7 @@ This project was designed to practice and learn the **ETL (Extract, Transform, L
   - Load the transformed data back into **Amazon S3** for further analysis.
 
 **Files:**
-- `TransformingLoadingData.ipynb`: Jupyter Notebook for transforming and loading the data using AWS Glue.
+- `TransformingLoadingData.ipynb`: Jupyter Notebook for transforming and loading the data (this is a job in AWS Glue)
 
 ---
 
