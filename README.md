@@ -26,7 +26,7 @@ This project was designed to practice and learn the **ETL (Extract, Transform, L
 ### 2. Data Transformation and Loading (Using AWS Glue)
 
 - **Objective**: Use **AWS Glue** to transform the scraped data:
-  - Add a **Total Weighted Average Rating** column considering both star ratings and the number of reviews.
+  - Add a **Weighted Average Rating** column considering both ratings and the number of reviews.
   - Group data by **brand** to analyze the popularity and average ratings of perfumes.
   - Load the transformed data back into **Amazon S3** for further analysis.
 
